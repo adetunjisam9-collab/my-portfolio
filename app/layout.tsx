@@ -19,7 +19,7 @@ export const metadata = {
   openGraph: {
     title: "Adetunji Samuel Adedeji | Full Stack Developer",
     description: "Full stack developer specialising in React, Node.js and PostgreSQL. Available for freelance projects.",
-    url: "https://your-portfolio-url.vercel.app",
+    url: "https://my-portfolio-nine-sable-60.vercel.app",
     siteName: "Adetunji Samuel Adedeji Portfolio",
     images: [
       {
