@@ -13,8 +13,8 @@ export default function Navbar() {
     { href: "#contact", label: "Contact" },
   ];
   return (
-    <nav className="fixed top-0 w-screen bg-white/90 backdrop-blur-sm border-b border-gray-100 z-50">
-      <div className="w-full px-4 py-4 flex items-center justify-between">
+    <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-sm border-b border-gray-100 z-50">
+      <div className="w-full max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/" className="font-bold text-base text-gray-900 hover:text-blue-600 transition duration-200">
           <span className="hidden sm:inline">Adetunji</span>
           <span className="sm:hidden">AS</span>
@@ -26,7 +26,7 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
-          <a href="mailto:adetunjisam9@gmail.com" className="bg-blue-600 text-white px-5 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 hover:scale-105 transition duration-200">Hire Me</a>
+          <a href="mailto:adetunjisam9@gmail.com" className="bg-blue-600 text-white px-5 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 hover:scale-105 transition duration-200">Let's Build</a>
         </div>
         <button className="md:hidden text-gray-600 hover:text-blue-600 transition duration-200 p-2" onClick={() => setMenuOpen(!menuOpen)}>
           <FontAwesomeIcon icon={menuOpen ? faXmark : faBars} className="w-5 h-5" />
@@ -39,7 +39,7 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
-          <a href="mailto:adetunjisam9@gmail.com" className="bg-blue-600 text-white px-5 py-3 rounded-lg text-sm font-medium hover:bg-blue-700 active:scale-95 transition duration-200 text-center">Hire Me</a>
+          <a href="mailto:adetunjisam9@gmail.com" className="bg-blue-600 text-white px-5 py-3 rounded-lg text-sm font-medium hover:bg-blue-700 active:scale-95 transition duration-200 text-center">Let's Build</a>
         </div>
       )}
     </nav>
