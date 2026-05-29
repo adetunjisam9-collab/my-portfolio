@@ -1,4 +1,7 @@
-﻿export default function About() {
+﻿import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLocationDot, faGraduationCap, faLaptopCode, faCircleCheck } from "@fortawesome/free-solid-svg-icons";
+
+export default function About() {
   return (
     <section id="about" className="py-24 px-6 bg-white">
       <div className="max-w-5xl mx-auto">
@@ -9,19 +12,19 @@
             </div>
             <div className="flex flex-col gap-3 w-full">
               <div className="flex items-center gap-3 bg-gray-50 rounded-xl px-4 py-3">
-                <span className="text-blue-600 text-lg">📍</span>
+                <FontAwesomeIcon icon={faLocationDot} className="text-blue-600 w-4" />
                 <span className="text-gray-700 text-sm">Lagos, Nigeria</span>
               </div>
               <div className="flex items-center gap-3 bg-gray-50 rounded-xl px-4 py-3">
-                <span className="text-blue-600 text-lg">🎓</span>
+                <FontAwesomeIcon icon={faGraduationCap} className="text-blue-600 w-4" />
                 <span className="text-gray-700 text-sm">B.Sc Computer Science, LASU</span>
               </div>
               <div className="flex items-center gap-3 bg-gray-50 rounded-xl px-4 py-3">
-                <span className="text-blue-600 text-lg">💻</span>
+                <FontAwesomeIcon icon={faLaptopCode} className="text-blue-600 w-4" />
                 <span className="text-gray-700 text-sm">2 years coding experience</span>
               </div>
               <div className="flex items-center gap-3 bg-gray-50 rounded-xl px-4 py-3">
-                <span className="text-blue-600 text-lg">🟢</span>
+                <FontAwesomeIcon icon={faCircleCheck} className="text-green-500 w-4" />
                 <span className="text-gray-700 text-sm">Available for freelance work</span>
               </div>
             </div>
