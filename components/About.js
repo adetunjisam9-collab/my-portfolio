@@ -32,12 +32,9 @@ export default function About() {
           <div data-aos="fade-left">
             <p className="text-blue-600 font-medium text-sm uppercase tracking-wide mb-2">About Me</p>
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Turning ideas into real digital products</h2>
-            <p className="text-gray-600 leading-relaxed mb-4">I am a Full-Stack Developer based in Lagos, Nigeria, specializing in building high-performance, secure, and scalable enterprise web applications. With a rigorous background in Computer Science from Lagos State University, I bridge the gap between complex software architecture and seamless user experiences.</p>
-            <p className="text-gray-600 leading-relaxed mb-4">My core expertise lies in the PERN Stack (PostgreSQL, Express.js, React, Node.js). I specialize in designing robust relational database schemas, building optimized SQL queries, and architecting clean, secure APIs tailored to handle complex, multi-user logic.</p>
-            <p className="text-gray-600 leading-relaxed mb-4">Flagship Project:
-ProHealth Nexus; An enterprise-grade, secure healthcare management ecosystem that orchestrates data flow between patients, medical practitioners, and administrative teams. Built entirely from scratch, this application demonstrates my ability to deliver multi-tier platforms that prioritize ironclad data compliance and relational database efficiency
-.</p>
-            <p className="text-gray-600 leading-relaxed mb-8">Whether you are a startup launching a disruptive product, a small business scaling operations, or an organization looking to automate your workflow, I deliver reliable digital infrastructure engineered to solve real business problems. Let’s build something built to last.</p>
+            <p className="text-gray-600 leading-relaxed mb-4">I am Adetunji Samuel Adedeji, a full stack developer based in Lagos, Nigeria. I studied Computer Science at Lagos State University and have spent the last 2 years building real-world web applications from the ground up.</p>
+            <p className="text-gray-600 leading-relaxed mb-4">I specialise in building scalable, secure and user-friendly web apps using React, Node.js and PostgreSQL. My most recent project, ProHealth Nexus, is a HIPAA-compliant healthcare management platform serving patients, doctors and admins — built and deployed entirely by me.</p>
+            <p className="text-gray-600 leading-relaxed mb-8">I work with startups, small businesses, hospitals and established organisations who need reliable software built right. I care deeply about clean code, great user experience and delivering products that actually solve problems.</p>
             <a href="#contact" className="bg-blue-600 text-white px-6 py-3 rounded-lg text-sm font-medium hover:bg-blue-700 transition inline-block">Work with me</a>
           </div>
         </div>
