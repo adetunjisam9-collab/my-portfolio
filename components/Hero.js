@@ -8,7 +8,7 @@
         <h1 data-aos="fade-up" data-aos-delay="100" className="text-4xl md:text-7xl font-bold text-gray-900 mb-4 leading-tight">
           Adetunji Samuel<span className="text-blue-600">.</span>
         </h1>
-        <p data-aos="fade-up" data-aos-delay="150" className="text-lg md:text-2xl font-medium text-blue-600 mb-4">
+        <p data-aos="fade-up" data-aos-delay="150" className="text-lg md:text-2xl font-medium mb-4" style={{ color: "#00FFC6" }}>
           Where logic meets imagination.
         </p>
         <p data-aos="fade-up" data-aos-delay="200" className="text-base md:text-lg text-gray-500 max-w-2xl mx-auto mb-3 leading-relaxed">

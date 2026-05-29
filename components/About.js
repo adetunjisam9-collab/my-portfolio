@@ -6,7 +6,7 @@ export default function About() {
     <section id="about" className="py-24 px-6 bg-white">
       <div className="max-w-5xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-          <div data-aos="fade-right" className="flex flex-col items-center md:items-start">
+          <div data-aos="fade-right" data-aos-offset="50" className="flex flex-col items-center md:items-start">
             <div className="w-48 h-48 rounded-2xl bg-blue-600 flex items-center justify-center mb-6">
               <span className="text-white text-6xl font-bold">AS</span>
             </div>
@@ -29,7 +29,7 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div data-aos="fade-left">
+          <div data-aos="fade-left" data-aos-offset="50">
             <p className="text-blue-600 font-medium text-sm uppercase tracking-wide mb-2">About Me</p>
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Turning ideas into real digital products</h2>
             <p className="text-gray-600 leading-relaxed mb-4">I am Adetunji Samuel Adedeji, a full stack developer based in Lagos, Nigeria. I have always been a deeply creative person — someone who sees a problem and immediately starts thinking about how to solve it differently.</p>
