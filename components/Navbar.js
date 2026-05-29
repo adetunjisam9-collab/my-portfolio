@@ -13,10 +13,12 @@ export default function Navbar() {
     { href: "#contact", label: "Contact" },
   ];
   return (
-    <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-sm border-b border-gray-100 z-50">
-      <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
-        <Link href="/" className="font-bold text-lg text-gray-900 hover:text-blue-600 transition duration-200">
-          Adetunji<span className="text-blue-600">.</span>
+    <nav className="fixed top-0 w-screen bg-white/90 backdrop-blur-sm border-b border-gray-100 z-50">
+      <div className="w-full px-4 py-4 flex items-center justify-between">
+        <Link href="/" className="font-bold text-base text-gray-900 hover:text-blue-600 transition duration-200">
+          <span className="hidden sm:inline">Adetunji</span>
+          <span className="sm:hidden">AS</span>
+          <span className="text-blue-600">.</span>
         </Link>
         <div className="hidden md:flex items-center gap-8">
           {links.map((link) => (
@@ -26,18 +28,18 @@ export default function Navbar() {
           ))}
           <a href="mailto:adetunjisam9@gmail.com" className="bg-blue-600 text-white px-5 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 hover:scale-105 transition duration-200">Hire Me</a>
         </div>
-        <button className="md:hidden text-gray-600 hover:text-blue-600 transition duration-200" onClick={() => setMenuOpen(!menuOpen)}>
+        <button className="md:hidden text-gray-600 hover:text-blue-600 transition duration-200 p-2" onClick={() => setMenuOpen(!menuOpen)}>
           <FontAwesomeIcon icon={menuOpen ? faXmark : faBars} className="w-5 h-5" />
         </button>
       </div>
       {menuOpen && (
-        <div className="md:hidden px-6 pb-6 pt-2 flex flex-col gap-4 bg-white border-t border-gray-100">
+        <div className="md:hidden px-4 pb-6 pt-2 flex flex-col gap-4 bg-white border-t border-gray-100">
           {links.map((link) => (
-            <Link key={link.href} href={link.href} className="text-gray-600 hover:text-blue-600 transition duration-200 text-sm font-medium" onClick={() => setMenuOpen(false)}>
+            <Link key={link.href} href={link.href} className="text-gray-600 hover:text-blue-600 active:text-blue-700 transition duration-200 text-sm font-medium py-1" onClick={() => setMenuOpen(false)}>
               {link.label}
             </Link>
           ))}
-          <a href="mailto:adetunjisam9@gmail.com" className="bg-blue-600 text-white px-5 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition duration-200 text-center">Hire Me</a>
+          <a href="mailto:adetunjisam9@gmail.com" className="bg-blue-600 text-white px-5 py-3 rounded-lg text-sm font-medium hover:bg-blue-700 active:scale-95 transition duration-200 text-center">Hire Me</a>
         </div>
       )}
     </nav>
