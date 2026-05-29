@@ -7,6 +7,9 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 
 export const metadata = {
   title: "Adetunji Samuel Adedeji | Full Stack Developer",
+  icons: {
+  icon: "/favicon.svg",
+},
   description: "Full stack developer specialising in React, Node.js and PostgreSQL. Available for freelance projects.",
 };
 
