@@ -21,7 +21,7 @@ export default function About() {
               </div>
               <div className="flex items-center gap-3 bg-gray-50 rounded-xl px-4 py-3">
                 <FontAwesomeIcon icon={faLaptopCode} className="text-blue-600 w-4" />
-                <span className="text-gray-700 text-sm">1 year coding experience</span>
+                <span className="text-gray-700 text-sm">2 years coding experience</span>
               </div>
               <div className="flex items-center gap-3 bg-gray-50 rounded-xl px-4 py-3">
                 <FontAwesomeIcon icon={faCircleCheck} className="text-green-500 w-4" />
@@ -29,13 +29,28 @@ export default function About() {
               </div>
             </div>
           </div>
+
           <div data-aos="fade-left">
             <p className="text-blue-600 font-medium text-sm uppercase tracking-wide mb-2">About Me</p>
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Turning ideas into real digital products</h2>
-            <p className="text-gray-600 leading-relaxed mb-4">I am Adetunji Samuel Adedeji, a full stack developer based in Lagos, Nigeria. I studied Computer Science at Lagos State University and have spent the last 2 years building real-world web applications from the ground up.</p>
-            <p className="text-gray-600 leading-relaxed mb-4">I specialise in building scalable, secure and user-friendly web apps using React, Node.js and PostgreSQL. My most recent project, ProHealth Nexus, is a HIPAA-compliant healthcare management platform serving patients, doctors and admins — built and deployed entirely by me.</p>
-            <p className="text-gray-600 leading-relaxed mb-8">I work with startups, small businesses, hospitals and established organisations who need reliable software built right. I care deeply about clean code, great user experience and delivering products that actually solve problems.</p>
-            <a href="#contact" className="bg-blue-600 text-white px-6 py-3 rounded-lg text-sm font-medium hover:bg-blue-700 transition inline-block">Work with me</a>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              I am Adetunji Samuel Adedeji, a full stack developer based in Lagos, Nigeria. I have always been a deeply creative person — someone who sees a problem and immediately starts thinking about how to solve it differently.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              Growing up in Nigeria, I watched foreign films and saw how far technology had transformed healthcare, education and transportation in other countries. It made me ask one question — why not here? Nigeria has the talent, the need and the potential. What it needs are builders willing to show up and do the work. As a Computer Science graduate from Lagos State University, I decided to be one of those builders.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-4">
+              That is why I built ProHealth Nexus — not just as a project, but as proof that world-class healthcare software can be built right here in Nigeria, for Nigeria and beyond. I specialise in React, Node.js and PostgreSQL, and I bring both technical skill and creative problem-solving to everything I build.
+            </p>
+
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Looking ahead, I am excited about AI, mobile apps, fintech and healthtech — areas where great software can change millions of lives. My mission is simple: use technology to help Nigeria and Africa close the gap with the rest of the world, one product at a time.
+            </p>
+
+            <a href="#contact" className="bg-blue-600 text-white px-6 py-3 rounded-lg text-sm font-medium hover:bg-blue-700 active:scale-95 transition duration-200 inline-block">Work with me</a>
           </div>
         </div>
       </div>
