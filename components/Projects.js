@@ -3,7 +3,8 @@ import Link from "next/link";
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-24 px-6 bg-gray-50 scroll-mt-24">
+    <section id="projects" className="py-24 px-6 bg-gray-50">
+      <div className="section-divider"></div>
       <div className="max-w-5xl mx-auto">
         <p data-aos="fade-up" className="text-blue-600 font-medium text-sm uppercase tracking-wide mb-2">My Work</p>
         <h2 data-aos="fade-up" data-aos-delay="100" className="text-4xl font-bold text-gray-900 mb-4">Featured Projects</h2>

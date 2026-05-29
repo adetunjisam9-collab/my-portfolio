@@ -13,6 +13,7 @@ export default function Testimonials() {
 
   return (
     <section id="testimonials" className="py-24 px-6 bg-white">
+      <div className="section-divider"></div>
       <div className="max-w-5xl mx-auto">
         <p data-aos="fade-up" className="text-blue-600 font-medium text-sm uppercase tracking-wide mb-2">Kind Words</p>
         <h2 data-aos="fade-up" data-aos-delay="100" className="text-4xl font-bold text-gray-900 mb-4">What people say</h2>

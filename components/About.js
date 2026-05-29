@@ -21,7 +21,7 @@ export default function About() {
               </div>
               <div className="flex items-center gap-3 bg-gray-50 rounded-xl px-4 py-3">
                 <FontAwesomeIcon icon={faLaptopCode} className="text-blue-600 w-4" />
-                <span className="text-gray-700 text-sm">2 years coding experience</span>
+                <span className="text-gray-700 text-sm">1 year coding experience</span>
               </div>
               <div className="flex items-center gap-3 bg-gray-50 rounded-xl px-4 py-3">
                 <FontAwesomeIcon icon={faCircleCheck} className="text-green-500 w-4" />
@@ -30,6 +30,7 @@ export default function About() {
             </div>
           </div>
           <div data-aos="fade-left" data-aos-offset="50">
+            <div className="section-divider"></div>
             <p className="text-blue-600 font-medium text-sm uppercase tracking-wide mb-2">About Me</p>
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Turning ideas into real digital products</h2>
             <p className="text-gray-600 leading-relaxed mb-4">I am Adetunji Samuel Adedeji, a full stack developer based in Lagos, Nigeria. I have always been a deeply creative person — someone who sees a problem and immediately starts thinking about how to solve it differently.</p>
