@@ -21,7 +21,7 @@ export default function About() {
               </div>
               <div className="flex items-center gap-3 bg-gray-50 rounded-xl px-4 py-3">
                 <FontAwesomeIcon icon={faLaptopCode} className="text-blue-600 w-4" />
-                <span className="text-gray-700 text-sm">1 years coding experience</span>
+                <span className="text-gray-700 text-sm">1 year coding experience</span>
               </div>
               <div className="flex items-center gap-3 bg-gray-50 rounded-xl px-4 py-3">
                 <FontAwesomeIcon icon={faCircleCheck} className="text-green-500 w-4" />
