@@ -32,7 +32,42 @@ html {
 .section-divider {
   width: 60px;
   height: 3px;
-  background: #00FFC6;
+  background: #1D4ED8;
   border-radius: 999px;
   margin-bottom: 1.5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 72px;
+}
+
+.ripple {
+  position: relative;
+  overflow: hidden;
+}
+
+.ripple::after {
+  content: "";
+  position: absolute;
+  width: 300%;
+  height: 300%;
+  top: -100%;
+  left: -100%;
+  pointer-events: none;
+  background-image: radial-gradient(circle, rgba(255,255,255,0.5) 10%, transparent 10.01%);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  transform: scale(10, 10);
+  opacity: 0;
+  transition: transform 0.5s, opacity 0.8s;
+}
+
+.ripple:active::after {
+  transform: scale(0, 0);
+  opacity: 0.6;
+  transition: 0s;
 }

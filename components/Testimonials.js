@@ -12,7 +12,7 @@ export default function Testimonials() {
   ];
 
   return (
-    <section id="testimonials" className="py-24 px-6 bg-white">
+    <section id="testimonials" className="py-16 px-6 bg-white">
       <div className="section-divider"></div>
       <div className="max-w-5xl mx-auto">
         <p data-aos="fade-up" className="text-blue-600 font-medium text-sm uppercase tracking-wide mb-2">Kind Words</p>

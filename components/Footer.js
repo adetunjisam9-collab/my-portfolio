@@ -4,7 +4,7 @@ import { faGithub, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
   return (
-    <footer className="py-10 px-6 border-t border-gray-100 bg-white">
+    <footer className="py-6 px-6 border-t border-gray-100 bg-white">
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="text-center md:text-left">
           <p className="text-gray-900 font-bold text-lg">Adetunji<span className="text-blue-600">.</span></p>

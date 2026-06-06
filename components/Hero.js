@@ -1,4 +1,6 @@
-﻿export default function Hero() {
+﻿import RippleButton from "./RippleButton";
+
+export default function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center px-6 pt-20">
       <div className="w-full max-w-5xl mx-auto text-center">
@@ -18,8 +20,8 @@
           Turning complex ideas into seamless digital experiences.
         </p>
         <div data-aos="fade-up" data-aos-delay="300" className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="#projects" className="bg-blue-600 text-white px-8 py-4 rounded-lg font-medium hover:bg-blue-700 active:scale-95 transition duration-200 text-base w-full sm:w-auto">See My Work</a>
-          <a href="#contact" className="border border-gray-300 text-gray-700 px-8 py-4 rounded-lg font-medium hover:border-blue-400 hover:text-blue-600 active:scale-95 transition duration-200 text-base w-full sm:w-auto">Start a Project</a>
+          <RippleButton href="#projects" className="bg-blue-600 text-white px-8 py-4 rounded-lg font-medium hover:bg-blue-700 transition duration-200 text-base w-full sm:w-auto">See My Work</RippleButton>
+          <RippleButton href="#contact" className="border border-gray-300 text-gray-700 px-8 py-4 rounded-lg font-medium hover:border-blue-400 hover:text-blue-600 transition duration-200 text-base w-full sm:w-auto">Start a Project</RippleButton>
         </div>
         <div data-aos="fade-up" data-aos-delay="400" className="mt-12 flex items-center justify-center gap-6 md:gap-10 text-center">
           <div>
