@@ -6,7 +6,7 @@ export default function Projects() {
   const others = projects.filter((p) => !p.featured);
 
   return (
-    <section id="projects" className="py-14 px-6 bg-gray-50">
+    <section id="projects" className="py-14 px-6 bg-gray-50 dark:bg-gray-900">
       <div className="max-w-5xl mx-auto">
         <div data-aos="fade-up">
           <div className="section-divider"></div>
