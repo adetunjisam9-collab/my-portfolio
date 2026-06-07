@@ -1,6 +1,39 @@
-﻿import RippleButton from "./RippleButton";
+﻿"use client";
+import { useEffect, useState, useRef } from "react";
+import RippleButton from "./RippleButton";
 
 export default function Hero() {
+  const roles = ["Full Stack Developer", "Creative Technologist", "Healthcare Tech Builder", "Problem Solver"];
+  const [text, setText] = useState("");
+  const [isDeleting, setIsDeleting] = useState(false);
+  const [loopNum, setLoopNum] = useState(0);
+  const [delta, setDelta] = useState(100);
+
+  useEffect(() => {
+    const ticker = setInterval(() => {
+      const i = loopNum % roles.length;
+      const fullText = roles[i];
+
+      if (isDeleting) {
+        setText(fullText.substring(0, text.length - 1));
+        setDelta(50);
+      } else {
+        setText(fullText.substring(0, text.length + 1));
+        setDelta(100);
+      }
+
+      if (!isDeleting && text === fullText) {
+        setTimeout(() => setIsDeleting(true), 1500);
+      } else if (isDeleting && text === "") {
+        setIsDeleting(false);
+        setLoopNum(loopNum + 1);
+        setDelta(100);
+      }
+    }, delta);
+
+    return () => clearInterval(ticker);
+  }, [text, isDeleting, loopNum, delta]);
+
   return (
     <section className="min-h-screen flex items-center justify-center px-6 pt-20">
       <div className="w-full max-w-5xl mx-auto text-center">
@@ -13,8 +46,9 @@ export default function Hero() {
         <p data-aos="fade-up" data-aos-delay="150" className="text-lg md:text-2xl font-medium mb-4" style={{ color: "#00FFC6" }}>
           Where logic meets imagination.
         </p>
-        <p data-aos="fade-up" data-aos-delay="200" className="text-base md:text-lg text-gray-500 max-w-2xl mx-auto mb-3 leading-relaxed">
-          Full Stack Developer — Creative Technologist
+        <p data-aos="fade-up" data-aos-delay="200" className="text-base md:text-lg max-w-2xl mx-auto mb-3 leading-relaxed min-h-[28px]">
+          <span className="text-gray-900 font-semibold">{text}</span>
+          <span className="text-blue-600 animate-pulse">|</span>
         </p>
         <p data-aos="fade-up" data-aos-delay="250" className="text-base md:text-xl text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed">
           Turning complex ideas into seamless digital experiences.
