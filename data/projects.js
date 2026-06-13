@@ -1,10 +1,9 @@
-const projects = [
+﻿const projects = [
   {
     id: "prohealth-nexus",
     name: "ProHealth Nexus",
     tagline: "A full-stack HIPAA-compliant healthcare management platform",
-    description:
-      "ProHealth Nexus streamlines patient care by connecting patients, doctors, and admins in one secure platform. Built with real-world healthcare compliance in mind — from 2FA authentication to encrypted medical records and automated notifications.",
+    description: "ProHealth Nexus streamlines patient care by connecting patients, doctors, and admins in one secure platform. Built with real-world healthcare compliance in mind — from 2FA authentication to encrypted medical records and automated notifications.",
     features: [
       "Patient, Doctor & Admin dashboards",
       "HIPAA-compliant 2FA authentication",
@@ -21,6 +20,28 @@ const projects = [
     image: "/images/prohealth/cover.png",
     featured: true,
     category: "Full Stack",
+  },
+  {
+    id: "sammey-engitech",
+    name: "Sammey Engitech",
+    tagline: "Company website for a next-generation technology company",
+    description: "Sammey Engitech is a bold, dark-themed company website built for a technology company with big ambitions — from web and mobile apps to AI, neurolink and robotics. Features particle animations, typing effects and a fully responsive design.",
+    features: [
+      "Dark theme with teal accent",
+      "Particle canvas animation",
+      "Typing animation hero",
+      "Scrolling marquee banner",
+      "Services, Vision and Process sections",
+      "Team and Projects showcase",
+      "WhatsApp floating button",
+      "Mobile responsive",
+    ],
+    techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+    liveUrl: "https://sammey-engitech.vercel.app",
+    githubUrl: "https://github.com/adetunjisam9-collab/sammey-engitech",
+    image: "/images/sammey/cover.png",
+    featured: false,
+    category: "Company Website",
   },
 ];
 
