@@ -61,7 +61,7 @@ export default function Projects() {
         {others.length > 0 && (
           <div>
             <h3 data-aos="fade-up" className="text-xl font-bold text-gray-900 mb-6">Other Projects</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
               {others.map((project, i) => (
                 <div data-aos="fade-up" data-aos-delay={i * 100} key={project.id} className="bg-white rounded-2xl border border-gray-200 p-5 hover:border-blue-200 hover:shadow-md transition duration-300 flex flex-col justify-between">
                   <div>
