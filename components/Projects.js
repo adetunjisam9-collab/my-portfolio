@@ -79,6 +79,10 @@ export default function Projects() {
                   <div className="flex items-center gap-4 mt-4">
                     <a href={project.liveUrl} target="_blank" className="bg-blue-600 text-white px-4 py-2 rounded-lg text-xs font-medium hover:bg-blue-700 transition duration-200">Live Demo</a>
                     <a href={project.githubUrl} target="_blank" className="border border-gray-300 text-gray-700 px-4 py-2 rounded-lg text-xs font-medium hover:border-blue-400 hover:text-blue-600 transition duration-200">View Code</a>
+                    <Link href={"/projects/" + project.id} className="group flex items-center gap-1 text-blue-600 text-xs font-medium hover:gap-2 transition-all duration-300">
+                      <span className="group-hover:tracking-wide transition-all duration-300">Case Study</span>
+                      <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
+                    </Link>
                   </div>
                 </div>
               ))}
