@@ -40,7 +40,7 @@ export default function Hero() {
         </div>
         <div data-aos="fade-up" data-aos-delay="400" className="mt-12 flex items-center justify-center gap-6 md:gap-10 text-center">
           <div>
-            <p className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">1+</p>
+            <p className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">2+</p>
             <p className="text-gray-500 dark:text-gray-400 text-xs md:text-sm mt-1">Years Experience</p>
           </div>
           <div className="w-px h-10 bg-gray-200 dark:bg-gray-700"></div>
