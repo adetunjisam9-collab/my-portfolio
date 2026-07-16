@@ -12,7 +12,7 @@ export default function Projects() {
           <div className="section-divider"></div>
           <p className="text-blue-600 font-medium text-sm uppercase tracking-wide mb-2">My Work</p>
           <h2 className="text-3xl font-bold text-gray-900 mb-3">Projects</h2>
-          <p className="text-gray-500 text-sm mb-8 max-w-xl">Real-world applications built from scratch — designed, developed and deployed.</p>
+          <p className="text-gray-500 text-sm mb-8 max-w-xl">Real-world applications built from scratch and designed, developed and deployed.</p>
         </div>
 
         <div className="flex flex-col gap-6 mb-10">

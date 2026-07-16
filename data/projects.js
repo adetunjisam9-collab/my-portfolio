@@ -3,7 +3,7 @@
     id: "prohealth-nexus",
     name: "ProHealth Nexus",
     tagline: "A full-stack HIPAA-compliant healthcare management platform",
-    description: "ProHealth Nexus streamlines patient care by connecting patients, doctors, and admins in one secure platform. Built with real-world healthcare compliance in mind — from 2FA authentication to encrypted medical records and automated notifications.",
+    description: "ProHealth Nexus streamlines patient care by connecting patients, doctors, and admins in one secure platform. Built with real-world healthcare compliance in mind, from 2FA authentication to encrypted medical records and automated notifications.",
     features: [
       "Patient, Doctor & Admin dashboards",
       "HIPAA-compliant 2FA authentication",
@@ -25,7 +25,7 @@
     id: "eko-waste",
     name: "EKO WASTE",
     tagline: "Gamified waste management platform for Lagos residents",
-    description: "EKO WASTE connects Lagos residents, waste collectors and admins in one smart platform. Residents book pickups, collectors mark completions, and residents earn coins for every pickup — with the cleanest resident crowned on the leaderboard.",
+    description: "EKO WASTE connects Lagos residents, waste collectors and admins in one smart platform. Residents book pickups, collectors mark completions, and residents earn coins for every pickup, with the cleanest resident crowned on the leaderboard.",
     features: [
       "Resident, Collector & Admin dashboards",
       "Pickup appointment booking",
@@ -46,7 +46,7 @@
     id: "sammey-engitech",
     name: "Sammey Engitech",
     tagline: "Company website for a next-generation technology company",
-    description: "Sammey Engitech is a bold, dark-themed company website built for a technology company with big ambitions — from web and mobile apps to AI, neurolink and robotics. Features particle animations, typing effects and a fully responsive design.",
+    description: "Sammey Engitech is a bold, dark-themed company website built for a technology company with big ambitions. from web and mobile apps to AI, neurolink and robotics. Features particle animations, typing effects and a fully responsive design.",
     features: [
       "Dark theme with teal accent",
       "Particle canvas animation",

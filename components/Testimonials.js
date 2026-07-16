@@ -4,10 +4,28 @@ import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
 export default function Testimonials() {
   const testimonials = [
     {
-      quote: "I was blown away — the UI, the responsiveness, the way everything just works. Samuel nailed it. This is the kind of ambition and execution I look for in someone I want to build with.",
+      quote: "I was blown away. The UI, the responsiveness, the way everything just works. Samuel nailed it. This is the kind of ambition and execution I look for in someone I want to build with.",
       name: "Miracle",
       title: "Software Developer & Founder, MiraPay",
       initials: "M",
+    },
+    {
+      quote: "This is good. Excellent job, keep up the good work.",
+      name: "Mr. Shanu",
+      title: "Senior Lecturer, Computer Science Department, LASU",
+      initials: "S",
+    },
+    {
+      quote: "You better don't stop here. This is just a stepping stone, continue passionately and you will achieve greatness. Well done.",
+      name: "Mrs. Omoyeni Orioke",
+      title: "Final Year Project Supervisor, LASU",
+      initials: "O",
+    },
+    {
+      quote: "I still can't believe you built this. Your apps are fire, start marketing it now so users can start experiencing it!",
+      name: "Kennedy",
+      title: "Software Enthusiast & Close Friend",
+      initials: "K",
     },
   ];
 
@@ -18,7 +36,7 @@ export default function Testimonials() {
           <div className="section-divider"></div>
           <p className="text-blue-600 font-medium text-xs uppercase tracking-wide mb-1">Kind Words</p>
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">What people say</h2>
-          <p className="text-gray-500 dark:text-gray-400 text-sm max-w-xl">Feedback from developers and collaborators I have worked with.</p>
+          <p className="text-gray-500 dark:text-gray-400 text-sm max-w-xl">Feedback from developers, lecturers and collaborators I have worked with.</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {testimonials.map((t, i) => (
@@ -38,9 +56,6 @@ export default function Testimonials() {
               </div>
             </div>
           ))}
-        </div>
-        <div data-aos="fade-up" className="mt-10 text-center">
-          <p className="text-gray-400 dark:text-gray-500 text-sm">More testimonials coming soon as I collaborate with more clients and developers.</p>
         </div>
       </div>
     </section>

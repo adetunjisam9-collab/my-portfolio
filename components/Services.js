@@ -4,11 +4,11 @@ import RippleButton from "./RippleButton";
 
 export default function Services() {
   const services = [
-    { icon: faGlobe, title: "Full Stack Web Apps", description: "End-to-end web applications built with React, Node.js and PostgreSQL. From database design to deployment — I handle everything." },
+    { icon: faGlobe, title: "Full Stack Web Apps", description: "End-to-end web applications built with React, Node.js and PostgreSQL. From database design to deployment. I handle everything." },
     { icon: faHospital, title: "Healthcare Software", description: "HIPAA-compliant platforms for hospitals, clinics and health startups. Patient management, appointment booking, medical records and more." },
     { icon: faChartBar, title: "Admin Dashboards", description: "Clean, powerful dashboards that give businesses full visibility and control over their data, users and operations." },
     { icon: faLink, title: "API Development", description: "Secure and scalable REST APIs that power your frontend, mobile app or third-party integrations." },
-    { icon: faRocket, title: "Deployment & DevOps", description: "I deploy and maintain your app on Vercel, Render or any cloud platform — with proper environment setup and monitoring." },
+    { icon: faRocket, title: "Deployment & DevOps", description: "I deploy and maintain your app on Vercel, Render or any cloud platform, with proper environment setup and monitoring." },
     { icon: faLock, title: "Authentication & Security", description: "Secure login systems with 2FA, role-based access control and industry-standard security practices built in from day one." },
   ];
 
